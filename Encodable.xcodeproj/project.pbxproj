@@ -56,9 +56,9 @@
 		DEFF10122591348700042A49 /* Encodable */ = {
 			isa = PBXGroup;
 			children = (
-				DEFF10252591349800042A49 /* Model */,
 				DEFF10132591348700042A49 /* AppDelegate.swift */,
-				DEFF10152591348700042A49 /* ViewController.swift */,
+				DEFF10252591349800042A49 /* Model */,
+				DEFF10282591376700042A49 /* Controller */,
 				DEFF10172591348700042A49 /* Main.storyboard */,
 				DEFF101A2591348900042A49 /* Assets.xcassets */,
 				DEFF101C2591348900042A49 /* LaunchScreen.storyboard */,
@@ -73,6 +73,14 @@
 				DEFF1026259134D400042A49 /* Viagem.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DEFF10282591376700042A49 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DEFF10152591348700042A49 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

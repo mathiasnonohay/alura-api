@@ -20,6 +20,11 @@ class Viagem{
     
     //MARK: - Init (Construtor)
     
-    init(id: Int, _ titulo: String, _ quantidadeDeDias: Int, _ preco: String, _ localizacao: String)
-    
+    init(_ id: Int, _ titulo: String, _ quantidadeDeDias: Int, _ preco: String, _ localizacao: String){
+        self.id = id
+        self.titulo = titulo
+        self.quantidadeDeDias = quantidadeDeDias
+        self.preco = preco
+        self.localizacao = localizacao
+    }
 }
