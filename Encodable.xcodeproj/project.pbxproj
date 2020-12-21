@@ -12,6 +12,7 @@
 		DEFF10192591348700042A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFF10172591348700042A49 /* Main.storyboard */; };
 		DEFF101B2591348900042A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFF101A2591348900042A49 /* Assets.xcassets */; };
 		DEFF101E2591348900042A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFF101C2591348900042A49 /* LaunchScreen.storyboard */; };
+		DEFF1027259134D400042A49 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFF1026259134D400042A49 /* Viagem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DEFF101A2591348900042A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEFF101D2591348900042A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEFF101F2591348900042A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEFF1026259134D400042A49 /* Viagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		DEFF10122591348700042A49 /* Encodable */ = {
 			isa = PBXGroup;
 			children = (
+				DEFF10252591349800042A49 /* Model */,
 				DEFF10132591348700042A49 /* AppDelegate.swift */,
 				DEFF10152591348700042A49 /* ViewController.swift */,
 				DEFF10172591348700042A49 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				DEFF101F2591348900042A49 /* Info.plist */,
 			);
 			path = Encodable;
+			sourceTree = "<group>";
+		};
+		DEFF10252591349800042A49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEFF1026259134D400042A49 /* Viagem.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFF10162591348700042A49 /* ViewController.swift in Sources */,
+				DEFF1027259134D400042A49 /* Viagem.swift in Sources */,
 				DEFF10142591348700042A49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
